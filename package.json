@@ -1,0 +1,15 @@
+{
+  "name": "webhook-demo",
+  "version": "1.0.0",
+  "description": "Creating a github webhook using micro, and testing it by tunneling to it using ngrok, and then launch it using zeit's now",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Babatunde Adeyemi",
+  "license": "ISC",
+  "dependencies": {
+    "micro": "^7.3.2"
+  }
+}
