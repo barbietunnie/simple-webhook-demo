@@ -4,5 +4,5 @@ module.exports = async req => {
     const data = await json(req);
 
     console.log('---   Webhook invoked    ---');
-    console.debug(data);
+    console.log(data);
 }
